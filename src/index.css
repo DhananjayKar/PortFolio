@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import "tailwindcss";
+
+html {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  scroll-behavior: smooth;
+  background: linear-gradient(to right, #1e1e2f, #3a3a5c);
+  color: white;
+}
+
+.neon-pie canvas {
+  filter: drop-shadow(0 0 10px #22a7f0)
+          drop-shadow(0 0 20px #115f9a)
+          drop-shadow(0 0 30px #1984c5);
+  transition: filter 0.3s ease;
+  animation: neonPulse 2s infinite;
+}
+
+@keyframes neonPulse {
+  0% { filter: drop-shadow(0 0 5px #22a7f0);}
+  50% { filter: drop-shadow(0 0 20px #22a7f0);}
+  100% { filter: drop-shadow(0 0 5px #22a7f0);}
+}
+
+.halo {
+  -webkit-filter: 
+    drop-shadow(0 6px 12px rgba(250, 228, 228, 0.35))
+    drop-shadow(0 10px 20px rgba(10,10,30,0.7));
+  filter: 
+    drop-shadow(0 6px 12px rgba(255,255,255,0.35)) 
+    drop-shadow(0 10px 20px rgba(10,10,30,0.7));
+  transition: filter 300ms ease, -webkit-filter 300ms ease;
+}
+
+.halo:hover {
+  -webkit-filter: 
+    drop-shadow(0 8px 16px rgba(255,255,255,0.45))
+    drop-shadow(0 15px 30px rgba(15,15,40,0.9));
+  filter: 
+    drop-shadow(0 8px 16px rgba(255,255,255,0.45)) 
+    drop-shadow(0 15px 30px rgba(15,15,40,0.9));
+}
