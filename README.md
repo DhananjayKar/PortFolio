@@ -1,12 +1,62 @@
-# React + Vite
+# Dhananjay's Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio! This website is a showcase of my projects, skills, and professional journey as a web developer. It's designed to be clean, interactive, and responsive, giving visitors a seamless experience whether they're on a desktop or mobile device.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
 
-## Expanding the ESLint configuration
+- **Interactive Animations:** Subtle fade-in and slide-up effects powered by [Framer Motion](https://www.framer.com/motion/), applied to specific components for a smooth, dynamic feel.
+- **Responsive Design:** Fully responsive layout that adapts elegantly to all screen sizes.
+- **Contact Form:** Built with [EmailJS](https://www.emailjs.com/) to allow visitors to get in touch directly from the website.
+- **CV Download:** Easily accessible CV link that opens in a new tab for convenience.
+- **Modern UI/UX:** Polished design with gradient buttons, soft shadows, and elegant typography using [Google Fonts](https://fonts.google.com/).
+- **Sticky Footer:** Footer stays anchored at the bottom for a clean, consistent layout.
+- **Portfolio Projects Section:** Highlighting my projects with proper spacing, hover effects, and interactive elements.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Technologies Used
+
+- **Frontend:** React, Tailwind CSS  
+- **Animations:** Framer Motion  
+- **Icons:** lucide-react  
+- **Forms:** EmailJS for contact form functionality  
+- **Fonts:** Google Fonts (Gabriela)  
+- **Version Control:** Git & GitHub for source code management  
+
+---
+
+## 📐 Design Approach
+
+My portfolio emphasizes clarity and user experience. Here’s what I focused on:
+
+- **Component-Specific Animations:** Only animating elements when they appear in view, avoiding unnecessary repetition.
+- **Mobile-First Responsiveness:** Contact lines and footer adapt based on screen size; vertical on small screens, horizontal on larger screens.
+- **Attention to Details:** Gradients, shadows, typography, and spacing were carefully chosen to create a modern and professional feel.
+
+---
+
+## 🚀 Live Demo
+
+You can check out the live website here: [Your Live URL](#)  
+
+*(Replace `#` with your hosted portfolio URL once live.)*
+
+---
+
+## 📂 Project Structure
+
+- `src/components` – React components like Contact, Footer, Projects, etc.  
+- `src/assets` – Images, icons, and other static assets  
+- `src/styles` – Tailwind CSS customizations and global styles  
+- `src/App.jsx` – Main app component  
+- `public` – Public assets including index.html and CV PDF  
+
+---
+
+## 💡 How to Run Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/portfolio.git
