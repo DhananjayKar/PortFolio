@@ -11,7 +11,6 @@ Welcome to my personal portfolio! This website is a showcase of my projects, ski
 - **Contact Form:** Built with [EmailJS](https://www.emailjs.com/) to allow visitors to get in touch directly from the website.
 - **CV Download:** Easily accessible CV link that opens in a new tab for convenience.
 - **Modern UI/UX:** Polished design with gradient buttons, soft shadows, and elegant typography using [Google Fonts](https://fonts.google.com/).
-- **Sticky Footer:** Footer stays anchored at the bottom for a clean, consistent layout.
 - **Portfolio Projects Section:** Highlighting my projects with proper spacing, hover effects, and interactive elements.
 
 ---
@@ -39,24 +38,4 @@ My portfolio emphasizes clarity and user experience. Here’s what I focused on:
 
 ## 🚀 Live Demo
 
-You can check out the live website here: [Your Live URL](#)  
-
-*(Replace `#` with your hosted portfolio URL once live.)*
-
----
-
-## 📂 Project Structure
-
-- `src/components` – React components like Contact, Footer, Projects, etc.  
-- `src/assets` – Images, icons, and other static assets  
-- `src/styles` – Tailwind CSS customizations and global styles  
-- `src/App.jsx` – Main app component  
-- `public` – Public assets including index.html and CV PDF  
-
----
-
-## 💡 How to Run Locally
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/portfolio.git
+You can check out the live website here: [Your Live URL](https://port-folio-two-ecru.vercel.app/)  
