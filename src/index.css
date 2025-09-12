@@ -17,7 +17,7 @@ html {
 
 body {
   margin: 0;
-  background-color: #1e1e2f;
+  background: linear-gradient(to right, #1e1e2f, #3a3a5c);
   color: white;
 }
 
