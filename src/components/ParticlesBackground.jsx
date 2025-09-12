@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useState, useEffect, useMemo } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
 
@@ -19,7 +19,7 @@ export default function ParticlesBackground() {
         number: { value: 40, density: { enable: true, area: 800 } },
         shape: { type: "circle" },
         size: {
-          value: { min: 10, max: 40 }, // bubble size
+          value: { min: 10, max: 40 },
           animation: { enable: true, speed: 2, minimumValue: 5 },
         },
         opacity: {
@@ -38,13 +38,8 @@ export default function ParticlesBackground() {
         },
       },
       interactivity: {
-        events: { 
-          onHover: { enable: true, mode: "repulse" }, // ⬅️ repulse instead of bubble
-          resize: true 
-        },
-        modes: {
-          repulse: { distance: 150, duration: 0.4 }, // stronger push-away effect
-        },
+        events: { onHover: { enable: true, mode: "repulse" }, resize: true },
+        modes: { repulse: { distance: 150, duration: 0.4 } },
       },
       detectRetina: true,
     }),
@@ -57,7 +52,7 @@ export default function ParticlesBackground() {
     <Particles
       id="tsparticles"
       options={options}
-      className="fixed inset-0 -z-20 w-full h-full"
+      className="fixed inset-0 -z-20 w-screen h-screen"
     />
   );
 }

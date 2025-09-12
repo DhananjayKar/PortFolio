@@ -29,6 +29,8 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         <h1 className="text-white text-2xl font-bold">Dhananjay Kar</h1>
+
+        {/* Desktop Links */}
         <ul className="hidden md:flex space-x-8 text-gray-200">
           {links.map((link) => (
             <li key={link}>
@@ -41,20 +43,24 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
+
+        {/* Mobile Toggle */}
         <div className="md:hidden">
           <button onClick={() => setIsOpen(!isOpen)} className="text-white">
             {isOpen ? <X size={28} /> : <Menu size={28} />}
           </button>
         </div>
       </div>
+
+      {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-[#1e1e2f] border-t border-gray-700">
+        <div className="md:hidden absolute top-full left-0 w-full bg-[#1e1e2f]/80 border-t border-gray-700">
           <ul className="flex flex-col items-center py-4 space-y-4 text-gray-200">
             {links.map((link) => (
               <li key={link}>
                 <a
                   href={`#${link.toLowerCase()}`}
-                  className="hover:text-white transition-colors"
+                  className="hover:text-white hover:scale-105 transition-colors"
                   onClick={() => setIsOpen(false)}
                 >
                   {link}

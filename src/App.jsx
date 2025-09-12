@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="relative z-10">
+    <div className="relative z-10 w-full overflow-x-hidden">
       <ParticlesBackground />
       <Navbar />
       <Hero />
