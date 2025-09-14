@@ -4,11 +4,10 @@ import myCV from "../assets/Dhananjay_Kar.pdf";
 
 const Hero = () => {
   return (
-    <section
-      id="home"
-      className="relative h-screen flex items-center justify-center 
-                 overflow-hidden bg-transparent z-40"
-    >
+      <section
+        id="home"
+        className="relative pt-20 min-h-screen flex items-center justify-center overflow-hidden bg-transparent"
+      >
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center px-6">
         {/* Left text */}
         <div className="flex-1 text-center md:text-left space-y-6">
