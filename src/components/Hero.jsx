@@ -6,7 +6,8 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative h-screen flex items-center justify-center overflow-hidden bg-transparent"
+      className="relative h-screen flex items-center justify-center 
+                 overflow-hidden bg-transparent z-40"
     >
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center px-6">
         {/* Left text */}

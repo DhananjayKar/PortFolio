@@ -59,7 +59,7 @@ const educationData = [
     title: "Advanced React",
     board: "Meta",
     year: "2025",
-    pdf: "#",
+    pdf: "/certificates/Advanced_React.pdf",
   },
 ];
 
