@@ -26,41 +26,11 @@ const educationData = [
     pdf: "/certificates/Tally.pdf",
   },
   {
-    title: "Introduction to Front-End Development",
-    board: "Meta",
+    title: "Front-End Developer",
+    board: "Meta/Coursera",
     year: "2025",
-    pdf: "/certificates/Introduction_to_Front-End_Development.pdf",
-  },
-  {
-    title: "Programming with JavaScript",
-    board: "Meta",
-    year: "2025",
-    pdf: "/certificates/Programming_with_JavaScript.pdf",
-  },
-  {
-    title: "Version Control",
-    board: "Meta",
-    year: "2025",
-    pdf: "/certificates/Version_Control.pdf",
-  },
-  {
-    title: "HTML and CSS in Depth",
-    board: "Meta",
-    year: "2025",
-    pdf: "/certificates/HTML_and_CSS_in_depth.pdf",
-  },
-  {
-    title: "React Basics",
-    board: "Meta",
-    year: "2025",
-    pdf: "/certificates/React_Basics.pdf",
-  },
-  {
-    title: "Advanced React",
-    board: "Meta",
-    year: "2025",
-    pdf: "/certificates/Advanced_React.pdf",
-  },
+    pdf: "/certificates/Meta_Front-End_Developer.pdf",
+  }
 ];
 
 export default function Education() {

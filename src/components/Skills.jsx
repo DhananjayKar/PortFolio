@@ -37,10 +37,10 @@ const COLORS = [
   "rgba(34,167,240,0.9)",
   "rgba(72,181,196,0.9)",
   "rgba(118,198,143,0.9)",
-  "rgba(166,215,91,0.9)",
   "rgba(201,229,47,0.9)",
+  "rgba(208,244,0,0.9)",
   "rgba(208,238,17,0.9)",
-  "rgba(208,244,0,0.9)"
+  "rgba(166,215,91,0.9)",
 ];
 
 export default function SkillsSection() {
@@ -70,6 +70,7 @@ export default function SkillsSection() {
         data: techSkills.map(skill => skill.level),
         backgroundColor: COLORS,
         hoverOffset: 100,
+        borderWidth: 6,
       },
     ],
   };
@@ -88,6 +89,11 @@ export default function SkillsSection() {
             return `${skill.name}: ${skill.level}%`;
           },
         },
+      },
+    },
+    elements: {
+      arc: {
+        borderRadius: 14,
       },
     },
     animation: {
@@ -113,7 +119,7 @@ export default function SkillsSection() {
           initial={{ opacity: 0, y: 80 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 1.2, delay: 0.3 }}
-          className="w-full max-w-[320px] h-[320px] mx-auto mb-12"
+          className="w-full max-w-[380px] h-[380px] mx-auto mb-12"
         >
           <Pie data={pieData} options={pieOptions} width={320} height={320} />
         </motion.div>
