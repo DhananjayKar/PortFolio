@@ -70,7 +70,7 @@ export default function SkillsSection() {
         data: techSkills.map(skill => skill.level),
         backgroundColor: COLORS,
         hoverOffset: 100,
-        borderWidth: 6,
+        borderWidth: 2,
       },
     ],
   };
