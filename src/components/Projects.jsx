@@ -24,7 +24,7 @@ export default function Projects() {
 
           return (
             <motion.div
-              key={project.id}
+              key={project.title}
               ref={ref}
               initial={{ opacity: 0, y: 50 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
