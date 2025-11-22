@@ -30,6 +30,12 @@ const educationData = [
     board: "Meta/Coursera",
     year: "2025",
     pdf: "/certificates/Meta_Front-End_Developer.pdf",
+  },
+  {
+    title: "AI Essentials",
+    board: "Google/Coursera",
+    year: "2025",
+    pdf: "/certificates/Google_AI_Essentials.pdf",
   }
 ];
 
