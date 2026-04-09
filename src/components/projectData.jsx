@@ -1,5 +1,13 @@
 const projects = [
   {
+    title: "Chrona - A Todo Application",
+    description: "A modern task manager with guest mode, authentication and MongoDB task syncing.",
+    tech: ["JavaScript", "Tailwindcss", "HTML", "React", "Framer Motion", "Node.JS", "MongoDB", "Express.JS"],
+    image: "/project/Chrona.png",
+    live: "https://chronalist.vercel.app/",
+    code: "https://github.com/DhananjayKar/Chrona",
+  },
+  {
     title: "Simple Calculator",
     description: "A simple calculator with basic features including history keeping.",
     tech: ["React", "Tailwind", "JavaScript"],
@@ -62,7 +70,7 @@ const projects = [
     image: "/project/CurrencyConvertor.png",
     live: "https://currency-convertor-reactjs.onrender.com/",
     code: "https://github.com/DhananjayKar/Currency-Convertor-ReactJS",
-  }
+  },
 ];
 
 export default projects;
