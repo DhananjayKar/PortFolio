@@ -1,5 +1,13 @@
 const projects = [
   {
+    title: "Cielio",
+    description: "A real-time weather application with 5 days weather along with humidity, wind, sunrise, sunset, hourly weather and AQI. It also has automatic location decector(if permission is allowed).",
+    tech: ["React", "Tailwind", "JavaScript", "OpenWeather API"],
+    image: "/project/Cielio.png",
+    live: "https://cielioweather.netlify.app/",
+    code: "https://github.com/DhananjayKar/Cielio",
+  },
+  {
     title: "Chrona - A Todo Application",
     description: "A modern task manager with guest mode, authentication and MongoDB task syncing.",
     tech: ["JavaScript", "Tailwindcss", "HTML", "React", "Framer Motion", "Node.JS", "MongoDB", "Express.JS"],
